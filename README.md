@@ -21,17 +21,6 @@ python3 -m venv env
 <b><install the rest framework</b>
 <pre>(env) ~$ pip3 install djangorestframework</pre>
 <h2>Usage</h2>
-<b>Update settings.py</b>
-<pre> 
-# REST Framework
-INSTALLED_APPS = [
-'rest_framework'
-]
-REST_FRAMEWORK = {    
-    'DEFAULT_PERMISSION_CLASSES': [],
-    'TEST_REQUEST_DEFAULT_FORMAT': 'json'
-}
-</pre>
 <b>Create the Database</b>
 
 <pre>
