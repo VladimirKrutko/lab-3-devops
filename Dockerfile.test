@@ -1,0 +1,4 @@
+FROM my_django_app:latest
+
+CMD [ "echo", "test" ]
+CMD ["python", "manage.py", "test"]

@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  main:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: my_django_app:latest
+
+  test:
+    build:
+      context: .
+      dockerfile: Dockerfile.test
